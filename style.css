@@ -1,4 +1,6 @@
-@import url(/style/hamburger-menu.css);
+@import url(/header/header.css);
+@import url(/header/hamburger-menu.css);
+
 :root {
     --red-orange-color-wheel: hsl(15, 100%, 55%);
     --ultramarine-blue: hsl(217, 100%, 50%);
@@ -15,41 +17,4 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-
-/* header ********************************/
-header {
-    background-color: var(--white);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 12px;
-}
-
-.head {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 15px;
-}
-
-
-/* sign in button */
-.signin-btn {
-    background-color: var(--oxford-blue);
-    padding: 12px;
-    border-radius: 8px;
-}
-
-.signin-btn>a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--white);
-    text-decoration: none;
-    font-size: medium;
-    gap: 8px;
-}
-
-.enter-icon {
-    height: 20px;
-    width: auto;
 }
