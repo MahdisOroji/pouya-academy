@@ -31,14 +31,6 @@ header {
     margin: 0 15px;
 }
 
-/* menu button */
-.menu-btn {
-    height: 50px;
-    width: 50px;
-    background-color: var(--red-orange-color-wheel);
-    border: none;
-    border-radius: 8px;
-}
 
 /* sign in button */
 .signin-btn {
