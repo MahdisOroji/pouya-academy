@@ -1,3 +1,5 @@
+@import url(/styles/keyframes.css);
+
 .banner-container {
     background-color: var(--white);
     padding-bottom: 80px;
@@ -19,6 +21,7 @@
 }
 
 .main-pic {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: end;
@@ -127,3 +130,40 @@
     background-color: var(--red-orange-color-wheel);
     z-index: 0;
 }
+
+/* alinment icons */
+.aliment-icon-1 {
+    position: absolute;
+    width: 15rem;
+    height: auto;
+    z-index: 5;
+    top: 30%;
+    left: 10%;
+    filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.2));
+    animation: float 4s ease-in-out infinite;
+}
+
+.aliment-icon-2 {
+    position: absolute;
+    width: 15rem;
+    height: auto;
+    z-index: 5;
+    top: 70%;
+    right: 10%;
+    filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.2));
+    animation: float-reverse 4s ease-in-out infinite;
+}
+
+.aliment-icon-4 {
+    position: absolute;
+    z-index: 5;
+    top: 45%;
+    right: 20%;
+    filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.2));
+    animation: float-updown-fun 2s ease-in-out infinite;
+
+
+}
+
+/* for teblet screen */
+@media (min-width: 426px) and (max-width: 768px) {}
