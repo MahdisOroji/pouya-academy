@@ -8,15 +8,50 @@
     background-color: var(--red-orange-color-wheel);
     border: none;
     border-radius: 8px;
+    z-index: 999;
 }
 
 #menu-toggle {
     display: none;
 }
 
-.burger-icon{
+.burger-icon {
     margin-top: 17px;
+    position: relative;
+    z-index: 999;
 }
+
+.menu-item {
+    display: none;
+    position: absolute;
+    background-color: var(--white);
+    width: 20rem;
+    height: 15rem;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+    top: 100%;
+    z-index: 10;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    gap: 10px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.menu-item>a {
+    display: block;
+    color: var(--oxford-blue);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#menu-toggle:checked~.menu-item {
+    display: flex;
+    flex-direction: column;
+}
+
 .menu-btn {
     position: relative;
     width: 40px;
