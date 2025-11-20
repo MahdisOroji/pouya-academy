@@ -1,167 +1,167 @@
 @import url(/styles/keyframes.css);
 
 .banner-container {
-    background-color: var(--white);
-    padding-bottom: 80px;
-    box-shadow: inset 0px -10px 20px rgba(0, 0, 0, 0.2);
+  background-color: var(--white);
+  padding-bottom: 80px;
+  box-shadow: inset 0px -10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .shape-1 {
-    margin-top: 8rem;
+  margin-top: 8rem;
 }
 
 .shape-2 {
-    position: absolute;
-    top: 38rem;
-    right: 1rem;
+  position: absolute;
+  top: 38rem;
+  right: 1rem;
 }
 
 .shape-3 {
-    margin-right: 3rem;
+  margin-right: 3rem;
 }
 
 .main-pic {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: end;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: end;
 }
 
 .bg-img {
-    height: 23rem;
-    width: auto;
+  height: 23rem;
+  width: auto;
 }
 
 .girl-img {
-    position: absolute;
-    height: 24rem;
-    width: auto;
-    margin-top: 50px;
-    z-index: 1;
+  position: absolute;
+  height: 24rem;
+  width: auto;
+  margin-top: 50px;
+  z-index: 1;
 }
 
 /* banner text */
 
 .banner-text {
-    position: absolute;
-    z-index: 2;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    top: 8rem;
-    gap: 40px;
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 8rem;
+  gap: 40px;
 }
 
-.banner-text>h1 {
-    font-size: large;
-    color: var(--ultramarine-blue);
+.banner-text > h1 {
+  font-size: large;
+  color: var(--ultramarine-blue);
 }
 
-.banner-text>strong {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-size: 2rem;
+.banner-text > strong {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 2rem;
 }
 
-.banner-text>strong>img {
-    position: absolute;
-    width: 12rem;
-    height: auto;
-    margin-right: 6rem;
-    margin-top: 78px;
+.banner-text > strong > img {
+  position: absolute;
+  width: 12rem;
+  height: auto;
+  margin-right: 6rem;
+  margin-top: 78px;
 }
 
-.banner-text>p {
-    color: var(--sonic-silver);
-    text-align: center;
-    padding: 0 20px;
+.banner-text > p {
+  color: var(--sonic-silver);
+  text-align: center;
+  padding: 0 20px;
 }
-
 
 /* banner buttons */
 
 .banner-buttons {
-    display: flex;
-    gap: 15px;
+  display: flex;
+  gap: 15px;
 }
 
 .banner-btn {
-    display: flex;
-    align-items: center;
-    border: none;
-    padding: 15px 28px;
-    border-radius: 8px;
+  display: flex;
+  align-items: center;
+  border: none;
+  padding: 15px 28px;
+  border-radius: 8px;
 }
 
-.banner-btn>a {
-    position: relative;
-    text-decoration: none;
-    color: var(--white);
-    font-size: medium;
-    display: inline-block;
-    z-index: 2;
+.banner-btn > a {
+  position: relative;
+  text-decoration: none;
+  color: var(--white);
+  font-size: medium;
+  display: inline-block;
+  z-index: 2;
 }
 
 .btn-1 {
-    background-color: var(--red-orange-color-wheel);
-    position: relative;
+  background-color: var(--red-orange-color-wheel);
+  position: relative;
 }
 
 .btn-square-1 {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    border-radius: 8px;
-    background-color: var(--oxford-blue);
-    z-index: 0;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: var(--oxford-blue);
+  z-index: 0;
 }
 
 .btn-2 {
-    background-color: var(--oxford-blue);
+  background-color: var(--oxford-blue);
 }
 
 .btn-square-2 {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    border-radius: 8px;
-    background-color: var(--red-orange-color-wheel);
-    z-index: 0;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: var(--red-orange-color-wheel);
+  z-index: 0;
 }
 
 /* alinment icons */
 .aliment-icon-1 {
-    position: absolute;
-    width: 15rem;
-    height: auto;
-    z-index: 5;
-    top: 30%;
-    left: 10%;
-    filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.2));
-    animation: float 4s ease-in-out infinite;
+  position: absolute;
+  width: 15rem;
+  height: auto;
+  z-index: 5;
+  top: 30%;
+  left: 10%;
+  filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.2));
+  animation: float 4s ease-in-out infinite;
 }
 
 .aliment-icon-2 {
-    position: absolute;
-    width: 15rem;
-    height: auto;
-    z-index: 5;
-    top: 70%;
-    right: 10%;
-    filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.2));
-    animation: float-reverse 4s ease-in-out infinite;
+  position: absolute;
+  width: 15rem;
+  height: auto;
+  z-index: 5;
+  top: 70%;
+  right: 10%;
+  filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.2));
+  animation: float-reverse 4s ease-in-out infinite;
 }
 
 .aliment-icon-4 {
-    position: absolute;
-    z-index: 5;
-    top: 45%;
-    right: 20%;
-    filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.2));
-    animation: float-updown-fun 2s ease-in-out infinite;
+  position: absolute;
+  z-index: 5;
+  top: 45%;
+  right: 20%;
+  filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.2));
+  animation: float-updown-fun 2s ease-in-out infinite;
 }
 
 /* for teblet screen */
-@media (min-width: 426px) and (max-width: 768px) {}
+@media (min-width: 426px) and (max-width: 768px) {
+}

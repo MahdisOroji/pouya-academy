@@ -1,100 +1,99 @@
 .menu-container {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50px;
-    width: 50px;
-    background-color: var(--red-orange-color-wheel);
-    border: none;
-    border-radius: 8px;
-    z-index: 999;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  background-color: var(--red-orange-color-wheel);
+  border: none;
+  border-radius: 8px;
+  z-index: 999;
 }
 
 #menu-toggle {
-    display: none;
+  display: none;
 }
 
 .burger-icon {
-    margin-top: 17px;
-    position: relative;
-    z-index: 999;
+  margin-top: 17px;
+  position: relative;
+  z-index: 999;
 }
 
 .menu-item {
-    display: none;
-    position: absolute;
-    background-color: var(--white);
-    width: 20rem;
-    height: 15rem;
-    text-align: center;
-    justify-content: center;
-    overflow: hidden;
-    top: 100%;
-    z-index: 10;
-    padding: 10px 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    gap: 10px;
-    margin-right: 20px;
-    margin-top: 15px;
+  display: none;
+  position: absolute;
+  background-color: var(--white);
+  width: 20rem;
+  height: 15rem;
+  text-align: center;
+  justify-content: center;
+  overflow: hidden;
+  top: 100%;
+  z-index: 99999;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  gap: 10px;
+  margin-right: 20px;
+  margin-top: 15px;
 }
 
-.menu-item>a {
-    display: block;
-    color: var(--oxford-blue);
-    text-decoration: none;
-    font-weight: 500;
+.menu-item > a {
+  display: block;
+  color: var(--oxford-blue);
+  text-decoration: none;
+  font-weight: 500;
 }
 
-#menu-toggle:checked~.menu-item {
-    display: flex;
-    flex-direction: column;
+#menu-toggle:checked ~ .menu-item {
+  display: flex;
+  flex-direction: column;
 }
 
 .menu-btn {
-    position: relative;
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-    display: block;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: block;
 }
 
 .menu-btn span {
-    position: absolute;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background: rgb(252, 252, 252);
-    border-radius: 2px;
-    transition: 0.3s;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: rgb(252, 252, 252);
+  border-radius: 2px;
+  transition: 0.3s;
 }
 
 .menu-btn span:nth-child(1) {
-    top: 0px;
+  top: 0px;
 }
 
 .menu-btn span:nth-child(2),
 .menu-btn span:nth-child(3) {
-    top: 10px;
+  top: 10px;
 }
 
 .menu-btn span:nth-child(4) {
-    top: 20px;
+  top: 20px;
 }
 
-
-#menu-toggle:checked+.menu-btn span:nth-child(1),
-#menu-toggle:checked+.menu-btn span:nth-child(4) {
-    width: 0%;
-    left: 50%;
-    top: 18px;
+#menu-toggle:checked + .menu-btn span:nth-child(1),
+#menu-toggle:checked + .menu-btn span:nth-child(4) {
+  width: 0%;
+  left: 50%;
+  top: 18px;
 }
 
-#menu-toggle:checked+.menu-btn span:nth-child(2) {
-    transform: rotate(45deg);
+#menu-toggle:checked + .menu-btn span:nth-child(2) {
+  transform: rotate(45deg);
 }
 
-#menu-toggle:checked+.menu-btn span:nth-child(3) {
-    transform: rotate(-45deg);
+#menu-toggle:checked + .menu-btn span:nth-child(3) {
+  transform: rotate(-45deg);
 }

@@ -1,70 +1,70 @@
 /* header ********************************/
 header {
-    background-color: var(--white);
-    box-shadow: 0 2px 4px rgba(121, 120, 120, 0.1);
-    padding: 12px;
-    position: sticky;
+  background-color: var(--white);
+  box-shadow: 0 2px 4px rgba(121, 120, 120, 0.1);
+  padding: 12px;
+  position: sticky;
 }
 
 .head {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 15px;
 }
-.logo{
-    display: none;
+.logo {
+  display: none;
 }
 .navbar {
-    display: none;
+  display: none;
 }
 
 /* sign in button */
 .signin-btn {
-    background-color: var(--oxford-blue);
-    padding: 12px;
-    border-radius: 8px;
+  background-color: var(--oxford-blue);
+  padding: 12px;
+  border-radius: 8px;
 }
 
-.signin-btn>a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--white);
-    text-decoration: none;
-    font-size: medium;
-    gap: 8px;
+.signin-btn > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  text-decoration: none;
+  font-size: medium;
+  gap: 8px;
 }
 
 .enter-icon {
-    height: 20px;
-    width: auto;
+  height: 20px;
+  width: auto;
 }
 
 /* responsive for tablet (768px) */
 @media (min-width: 426px) and (max-width: 768px) {
-    .head {
-        margin: 0 40px;
-    }
+  .head {
+    margin: 0 40px;
+  }
 }
 
 /* responsive for laptop and pc(1024,1440) */
 @media (min-width: 769px) and (max-width: 1440px) {
-    .navbar{
-        display: flex;
-        justify-content: space-between;
-        gap: 50px;
-    }
-    .navbar>a{
-        text-decoration: none;
-        color: var(--oxford-blue);
-    }
-    .menu-container{
-        display: none !important;
-    }
-    .logo{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+  }
+  .navbar > a {
+    text-decoration: none;
+    color: var(--oxford-blue);
+  }
+  .menu-container {
+    display: none !important;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
