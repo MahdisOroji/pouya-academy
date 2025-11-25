@@ -17,7 +17,7 @@
 }
 
 .shape-3 {
-  margin-right: 3rem;
+  width: 15rem;
 }
 
 .main-pic {
@@ -28,16 +28,21 @@
 }
 
 .bg-img {
-  height: 23rem;
-  width: auto;
+  height: auto;
+  width: 22rem;
+  margin-left: 2rem;
+  margin-top: 7rem;
+
 }
 
 .girl-img {
   position: absolute;
-  height: 24rem;
-  width: auto;
-  margin-top: 50px;
+  height: auto;
+  width: 22rem;
+  margin-top: 7rem;
+  margin-left: 2rem;
   z-index: 1;
+
 }
 
 /* banner text */
@@ -136,7 +141,7 @@
   width: 15rem;
   height: auto;
   z-index: 5;
-  top: 30%;
+  top: 50%;
   left: 10%;
   filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.2));
   animation: float 4s ease-in-out infinite;
@@ -147,7 +152,7 @@
   width: 15rem;
   height: auto;
   z-index: 5;
-  top: 70%;
+  top: 80%;
   right: 10%;
   filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.2));
   animation: float-reverse 4s ease-in-out infinite;
