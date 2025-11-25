@@ -1,6 +1,7 @@
 @import url(/styles/header.css);
 @import url(/styles/hamburger-menu.css);
 @import url(/styles/banner.css);
+@import url(/styles/section-one.css);
 
 :root {
   --red-orange-color-wheel: hsl(15, 100%, 55%);
