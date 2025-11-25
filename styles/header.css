@@ -2,7 +2,6 @@
 header {
   background-color: var(--white);
   box-shadow: 0 2px 4px rgba(121, 120, 120, 0.1);
-  padding: 12px;
   position: sticky;
 }
 
@@ -11,6 +10,7 @@ header {
   justify-content: space-between;
   align-items: center;
   margin: 0 15px;
+  padding: 12px;
 }
 .logo {
   display: none;

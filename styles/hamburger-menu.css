@@ -8,7 +8,7 @@
   background-color: var(--red-orange-color-wheel);
   border: none;
   border-radius: 8px;
-  z-index: 999;
+  z-index: 4;
 }
 
 #menu-toggle {
@@ -18,7 +18,7 @@
 .burger-icon {
   margin-top: 17px;
   position: relative;
-  z-index: 999;
+  z-index: 3;
 }
 
 .menu-item {
@@ -31,7 +31,7 @@
   justify-content: center;
   overflow: hidden;
   top: 100%;
-  z-index: 99999;
+  z-index: 9999;
   padding: 10px 20px;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);

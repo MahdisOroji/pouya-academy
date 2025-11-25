@@ -72,3 +72,21 @@
         transform: translateY(0px);
     }
 }
+
+@keyframes float-variant {
+    0% {
+        transform: translateY(0px) translateX(0px);
+    }
+    20% {
+        transform: translateY(-8px) translateX(3px);
+    }
+    45% {
+        transform: translateY(4px) translateX(6px);
+    }
+    70% {
+        transform: translateY(-3px) translateX(-4px);
+    }
+    100% {
+        transform: translateY(0px) translateX(0px);
+    }
+}
