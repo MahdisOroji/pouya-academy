@@ -3,8 +3,12 @@
 .banner-container {
     background-color: var(--white);
     padding-bottom: 80px;
-    /* box-shadow: inset 0px -10px 20px rgba(0, 0, 0, 0.2); */
+    background-image: url(/images/img/images.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0px -10px 20px rgba(0, 0, 0, 0.2);
 }
+
 
 .shape-1 {
     margin-top: 8rem;
@@ -244,61 +248,56 @@
 }
 
 @media (min-width: 769px) and (max-width: 1440px) {
-    .banner-container {
-        padding-top: 50px;
+    .banner {
+        display: flex;
+        flex-direction: row;
+        direction: ltr;
+        justify-content: space-between;
+        align-items: center;
+        height: 30rem;
+    }
+
+    .main-pic {
+        position: absolute;
+        top: 8%;
+        padding-left: 5rem;
     }
 
     .banner-text {
-        display: flex;
-        justify-content: start;
+        position: static;
         align-items: start;
-        padding-right: 20px;
-        margin-top: 10rem;
+        direction: rtl;
+        padding-right: 3rem;
+        margin-top: 2rem;
     }
 
     .banner-text>p {
-        text-wrap: wrap;
-        width: 300px;
+        width: 400px;
+        text-align: start;
     }
 
-    .banner {
-        display: flex;
-        align-items: start;
-        justify-content: start;
+    .shape-1 {
+        width: 4rem;
+    }
+
+    .shape-2 {
+        display: none;
     }
 
     .girl-img {
-        width: 30rem;
-        height: auto;
-        margin-right: 90px;
+        margin: 0 !important;
     }
-
-    .bg-img {
-        width: 30rem;
-        height: auto;
+    .aliment-icon-1{
+        padding-left: 5rem;
     }
-
-    .aliment-icon-2 {
-        top: 65%;
+    .aliment-icon-2{
+        top: 70%;
+        padding-left: 5rem;
     }
-
-    .aliment-icon-3 {
+    .aliment-icon-3{
         display: flex;
         top: 90%;
-        right: 30%;
-
-    }
-
-    .bg-img,
-    .bg-img,
-    .aliment-icon-1,
-    .aliment-icon-2,
-    .aliment-icon-3,
-    .aliment-icon-4 {
-        margin-right: 6rem;
-    }
-    .shape-1 {
-        width: 5rem;
-        margin-right: 3rem;
+        left: 2%;
+        padding-left: 5rem;
     }
 }
