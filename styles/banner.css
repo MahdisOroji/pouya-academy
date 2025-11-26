@@ -1,5 +1,9 @@
 @import url(/styles/keyframes.css);
 
+/* .container{
+    max-width: 1650px;
+} */
+
 .banner-container {
     background-color: var(--white);
     padding-bottom: 80px;
@@ -247,6 +251,7 @@
     }
 }
 
+/* for laptop screen */
 @media (min-width: 769px) and (max-width: 1440px) {
     .banner {
         display: flex;
@@ -287,14 +292,82 @@
     .girl-img {
         margin: 0 !important;
     }
-    .aliment-icon-1{
+
+    .aliment-icon-1 {
         padding-left: 5rem;
     }
-    .aliment-icon-2{
+
+    .aliment-icon-2 {
         top: 70%;
         padding-left: 5rem;
     }
-    .aliment-icon-3{
+
+    .aliment-icon-3 {
+        display: flex;
+        top: 90%;
+        left: 2%;
+        padding-left: 5rem;
+    }
+}
+
+/* large laptop screen */
+@media (min-width: 1441px) and (max-width: 2560px) {
+
+    header,
+    main {
+        max-width: 2560px;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: row;
+        direction: ltr;
+        justify-content: space-between;
+        align-items: center;
+        height: 30rem;
+    }
+
+    .main-pic {
+        position: absolute;
+        top: 8%;
+        padding-left: 5rem;
+    }
+
+    .banner-text {
+        position: static;
+        align-items: start;
+        direction: rtl;
+        padding-right: 3rem;
+        margin-top: 2rem;
+    }
+
+    .banner-text>p {
+        width: 400px;
+        text-align: start;
+    }
+
+    .shape-1 {
+        width: 4rem;
+    }
+
+    .shape-2 {
+        display: none;
+    }
+
+    .girl-img {
+        margin: 0 !important;
+    }
+
+    .aliment-icon-1 {
+        padding-left: 5rem;
+    }
+
+    .aliment-icon-2 {
+        top: 70%;
+        padding-left: 5rem;
+    }
+
+    .aliment-icon-3 {
         display: flex;
         top: 90%;
         left: 2%;
