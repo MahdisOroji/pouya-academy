@@ -1,8 +1,5 @@
 @import url(/styles/keyframes.css);
 
-/* .container{
-    max-width: 1650px;
-} */
 
 .banner-container {
     background-color: var(--white);
@@ -309,15 +306,7 @@
         padding-left: 5rem;
     }
 }
-
-/* large laptop screen */
-@media (min-width: 1441px) and (max-width: 2560px) {
-
-    header,
-    main {
-        max-width: 2560px;
-    }
-
+@media (min-width: 1440px){
     .banner {
         display: flex;
         flex-direction: row;

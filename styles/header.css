@@ -68,3 +68,23 @@ header {
     justify-content: center;
   }
 }
+
+@media (min-width: 1440px){
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+  }
+  .navbar > a {
+    text-decoration: none;
+    color: var(--oxford-blue);
+  }
+  .menu-container {
+    display: none !important;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
