@@ -161,12 +161,16 @@
     }
 
     .about-images {
-        width: 90%;
+        width: 60%;
         height: auto;
     }
 
     .about-text {
         font-size: larger;
+    }
+    .about-text>p {
+        color: var(--sonic-silver);
+        width: 400px;
     }
 
     .aliment-icon1 {
