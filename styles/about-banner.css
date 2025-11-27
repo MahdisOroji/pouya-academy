@@ -58,6 +58,7 @@
 }
 
 /* about text */
+
 .about-text {
     display: flex;
     flex-direction: column;

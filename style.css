@@ -3,6 +3,7 @@
 @import url(/styles/banner.css);
 @import url(/styles/section-one.css);
 @import url(/styles/about-banner.css);
+@import url(/styles//section-three.css);
 
 :root {
   --red-orange-color-wheel: hsl(15, 100%, 55%);
@@ -21,6 +22,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 .container {
   max-width: 1440px;
   margin: 0 auto;
