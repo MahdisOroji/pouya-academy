@@ -1,0 +1,120 @@
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--oxford-blue);
+}
+
+/* features text */
+.features-text {
+    padding: 5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
+}
+
+.features-title {
+    color: var(--ultramarine-blue);
+    font-weight: 800;
+    font-size: larger;
+}
+
+.features-subtitle {
+    color: var(--white);
+    font-weight: 300;
+}
+
+.features-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.features-wrapper {
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* features icon */
+.feature-icon-1 {
+    background-color: hsl(222, 87%, 56%);
+    width: 65px;
+    height: 65px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 20px;
+}
+
+.feature-icon-2 {
+    background-color: hsl(336, 73%, 50%);
+    width: 65px;
+    height: 65px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 20px;
+
+}
+
+.feature-icon-3 {
+    background-color: hsl(265, 83%, 44%);
+    width: 65px;
+    height: 65px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 20px;
+
+}
+
+/* main pic */
+.features-pic {
+    width: 100%;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .features-text {
+        gap: 2rem;
+    }
+}
+
+/* @media (min-width: 1024px) {
+    .features {
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .features-pic {
+        display: block;
+        object-fit: cover;
+        object-position: center;
+        width: 100%;
+        height: 100%;
+
+    }
+} */
+
+@media (min-width: 1024px) {
+    .features {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+        align-items: center;
+        padding: 5rem 6rem;
+    }
+
+    .features-pic {
+        height: 600px;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+}

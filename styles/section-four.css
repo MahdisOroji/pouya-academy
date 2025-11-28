@@ -129,7 +129,7 @@
 .category {
     margin-top: 10px;
 }
-
+/* tablet screen */
 @media (min-width: 768px) and (max-width: 1023px) {
     .section-four {
         padding-top: 12rem;
@@ -183,7 +183,7 @@
         text-wrap: nowrap;
     }
 }
-
+/* laptop and larger screen */
 @media (min-width: 1024px) {
     .section-four {
         display: flex;
@@ -202,5 +202,11 @@
         justify-content: center;
         align-items: center;
         text-wrap: nowrap;
+    }
+    .category {
+        text-wrap: nowrap;
+        padding-left: 20px;
+        color: var(--sonic-silver);
+        margin-bottom: 5px;
     }
 }

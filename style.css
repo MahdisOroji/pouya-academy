@@ -5,7 +5,11 @@
 @import url(/styles/about-banner.css);
 @import url(/styles//section-three.css);
 @import url(/styles/section-four.css);
-
+@import url(/styles/section-five.css);
+@font-face {
+  font-family: iranian;
+  src: url("/fonts/irsans_p30download.com.ttf") format("truetype");
+}
 :root {
   --red-orange-color-wheel: hsl(15, 100%, 55%);
   --ultramarine-blue: hsl(217, 100%, 50%);
@@ -22,6 +26,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  /* font-family: iranian; */
 }
 
 .container {
