@@ -1,596 +1,829 @@
 <!DOCTYPE html>
 <html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>صفحه اصلی</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="/style.css" />
-  <title>صفحه اصلی</title>
-</head>
-
-<body>
-  <div class="container">
-    <header>
-      <div class="head">
-        <div class="menu-container">
-          <div class="burger-icon">
-            <input type="checkbox" id="menu-toggle" />
-            <label for="menu-toggle" class="menu-btn">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-            </label>
-            <div class="menu-item">
-              <a href="#">خانه</a>
-              <a href="#">درباره ما</a>
-              <a href="#">دوره ها</a>
-              <a href="#">وبلاگ</a>
-              <a href="#">تماس با ما</a>
+  <body>
+    <div class="container">
+      <header>
+        <div class="head">
+          <div class="menu-container">
+            <div class="burger-icon">
+              <input type="checkbox" id="menu-toggle" />
+              <label for="menu-toggle" class="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </label>
+              <div class="menu-item">
+                <a href="#">خانه</a>
+                <a href="#">درباره ما</a>
+                <a href="#">دوره ها</a>
+                <a href="#">وبلاگ</a>
+                <a href="#">تماس با ما</a>
+              </div>
             </div>
           </div>
-        </div>
-        <!-- <div class="hamburger" id="hamburger">
+          <!-- <div class="hamburger" id="hamburger">
         <div class="line1"> </div>
         <div class="line2"></div>
         <div class="line3"></div>
       </div> -->
 
-        <!-- visible for laptop screen -->
+          <!-- visible for laptop screen -->
 
-        <div class="logo">
-          <a href="#">
-            <img src="/images/logo/logo.png" alt="logo" />
-          </a>
-        </div>
-
-        <div class="navbar">
-          <a href="#">خانه</a>
-          <a href="#">درباره ما</a>
-          <a href="#">دوره ها</a>
-          <a href="#">وبلاگ</a>
-          <a href="#">تماس با ما</a>
-        </div>
-        <!-- ^^^^ -->
-        <div>
-          <button class="signin-btn">
-            <a href="#"><img src="/images//icons/enter.png" alt="enter-button" class="enter-icon" />ورود | ثبت نام
+          <div class="logo">
+            <a href="#">
+              <img src="/images/logo/logo.png" alt="logo" />
             </a>
-          </button>
-        </div>
-      </div>
-      <section class="banner-container">
-        <div class="banner">
-          <div class="banner-pic">
-            <img src="images/banner/shape-1.png" alt="shape-1" class="shape-1" />
-            <img src="/images/banner/shape-3.png" alt="shape-3" class="shape-3" />
-            <div class="main-pic">
-              <img src="/images/banner/banner-img-bg.png" alt="bg-banner" class="bg-img" />
-              <img src="/images/banner/banner-img.png" alt="banner" class="girl-img" />
-              <img src="/images/icons/banner-aliment-icon-1.png" alt="aliment-icon" class="aliment-icon-1" />
-              <img src="/images/icons/banner-aliment-icon-2.png" alt="aliment-icon" class="aliment-icon-2" />
-              <img src="/images//icons//banner-aliment-icon-3.png" alt="aliment-icon-3" class="aliment-icon-3">
-              <img src="/images/icons/banner-aliment-icon-4.png" alt="aliment-icon" class="aliment-icon-4" />
-            </div>
-            <img src="/images/banner/shape-2.png" alt="shape-2" class="shape-2" />
           </div>
 
-          <div class="banner-text">
-            <h1>موسسه پویا ، دوره های آنلاین و حضوری</h1>
-            <strong>
-              <span>برنامه ریزی و آموزش</span>
-              <span>توسط برترین اساتید</span>
-              <img src="/images/banner/banner-line.png" alt="banner-line" />
-            </strong>
-            <p>
-              پیر مردی هر روز تو محله می دید پسر کی با کفش های پاره و پای برهنه
-              با توپ پلاستیکی فوتبال بازی می کند، روزی رفت ی کتانی نو خرید و
-              اومد و به پسرک گفت بیا این کفشا رو بپوش
-            </p>
-            <div class="banner-buttons">
-              <button class="banner-btn btn-1">
-                <span class="btn-square-1"></span>
-                <a href="#">مشاهده دوره ها</a>
-              </button>
-              <button class="banner-btn btn-2">
-                <span class="btn-square-2"></span>
-                <a href="#">تماس با ما</a>
-              </button>
-            </div>
+          <div class="navbar">
+            <a href="#">خانه</a>
+            <a href="#">درباره ما</a>
+            <a href="#">دوره ها</a>
+            <a href="#">وبلاگ</a>
+            <a href="#">تماس با ما</a>
           </div>
-        </div>
-      </section>
-    </header>
-
-    <main>
-      <!-- courses section -->
-      <section class="section-one">
-        <div class="course-title">
-          <p class="title-1">دوره های آموزشی</p>
-          <p class="title-2">محبوب ترین دوره ها را پیدا کنید</p>
-        </div>
-        <div class="all-courses">
-          <div class="course">
-            <img src="/images/icons/icon-category/course-category-icon-1.png" alt="category-icon-1">
-            <div class="course-text">
-              <b>علم داده</b>
-              <span> داده ها همه چیزند. </span>
-            </div>
-          </div>
-          <div class="course">
-            <img src="/images/icons/icon-category/course-category-icon-2.png" alt="category-icon-2">
-            <div class="course-text">
-              <b>استراتژی کسب و کار</b>
-              <span>بهبود کسب و کار </span>
-            </div>
-          </div>
-          <div class="course">
-            <img src="/images/icons/icon-category/course-category-icon-3.png" alt="category-icon-3">
-            <div class="course-text">
-              <b> هنر و طراحی</b>
-              <span> سرگرمی و چالش </span>
-            </div>
-          </div>
-          <div class="course">
-            <img src="/images/icons/icon-category/course-category-icon-4.png" alt="category-icon-4">
-            <div class="course-text">
-              <b> سبک زندگی</b>
-              <span> مهارت های جدید </span>
-            </div>
-          </div>
-          <div class="course">
-            <img src="/images/icons/icon-category/course-category-icon-5.png" alt="category-icon-5">
-            <div class="course-text">
-              <b>بازاریابی</b>
-              <span> مهارت های جدید</span>
-            </div>
-          </div>
-          <div class="course">
-            <img src="/images/icons/icon-category/course-category-icon-6.png" alt="category-icon-6">
-            <div class="course-text">
-              <b>امورمالی</b>
-              <span> مهارت های جدید</span>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- end courses section -->
-
-      <!-- about us section (banner) -->
-      <section class="section-two">
-        <div class="about">
-          <div class="about-images">
-            <img src="/images/banner/sec-banner/about-img-bg.png" alt="about-img-bg" class="bg-about-img">
-            <img src="/images/banner/sec-banner/about-img.png" alt="about-img" class="about-img">
-            <img src="/images/icons/banner-aliment-icon-1.png" alt="aliment-icon" class="aliment-icon1" />
-            <img src="/images/icons/banner-aliment-icon-2.png" alt="aliment-icon" class="aliment-icon2" />
-          </div>
-          <div class="about-text">
-            <strong>درباره ما</strong>
-            <span>ما بهترین دوره های آنلاین را برگزار میکنیم</span>
-            <p>
-              پیر مردی هر روز تو محله می دید پسر کی با کفش های پاره و پای برهنه با توپ پلاستیکی فوتبال بازی می کند، روزی
-              رفت ی کتانی نو خرید و اومد و به پسرک گفت بیا این کفشا رو بپوش
-            </p>
-            <ul>
-              <li>برگزاری فصلی دوره های آنلاین <svg xmlns="http://www.w3.org/2000/svg" class="ionicon s-ion-icon"
-                  viewBox="0 0 512 512">
-                  <title>Checkmark Circle</title>
-                  <path
-                    d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z">
-                  </path>
-                </svg> </li>
-              <li>برگزاری فصلی دوره های آنلاین <svg xmlns="http://www.w3.org/2000/svg" class="ionicon s-ion-icon"
-                  viewBox="0 0 512 512">
-                  <title>Checkmark Circle</title>
-                  <path
-                    d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z">
-                  </path>
-                </svg></li>
-              <li>برگزاری فصلی دوره های آنلاین <svg xmlns="http://www.w3.org/2000/svg" class="ionicon s-ion-icon"
-                  viewBox="0 0 512 512">
-                  <title>Checkmark Circle</title>
-                  <path
-                    d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z">
-                  </path>
-                </svg></li>
-            </ul>
-            <button class="about-btn btn">
-              <span class="btn-square"></span>
-              <a href="#"> بیشتر ببینید </a>
+          <!-- ^^^^ -->
+          <div>
+            <button class="signin-btn">
+              <a href="#"
+                ><img
+                  src="/images//icons/enter.png"
+                  alt="enter-button"
+                  class="enter-icon"
+                />ورود | ثبت نام
+              </a>
             </button>
           </div>
         </div>
-      </section>
-      <!-- section three -->
-      <section class="section-three">
-        <div class="course-title-wrapper">
-          <div class="section-three-titles">
-            <p class="section-three-subtitle">
-              دوره های آنلاین
-            </p>
-            <h2 class="section-three-title">
-              دوره آنلاین مناسب خود را پیدا کنید
+        <section class="banner-container">
+          <div class="banner">
+            <div class="banner-pic">
+              <img
+                src="images/banner/shape-1.png"
+                alt="shape-1"
+                class="shape-1"
+              />
+              <img
+                src="/images/banner/shape-3.png"
+                alt="shape-3"
+                class="shape-3"
+              />
+              <div class="main-pic">
+                <img
+                  src="/images/banner/banner-img-bg.png"
+                  alt="bg-banner"
+                  class="bg-img"
+                />
+                <img
+                  src="/images/banner/banner-img.png"
+                  alt="banner"
+                  class="girl-img"
+                />
+                <img
+                  src="/images/icons/banner-aliment-icon-1.png"
+                  alt="aliment-icon"
+                  class="aliment-icon-1"
+                />
+                <img
+                  src="/images/icons/banner-aliment-icon-2.png"
+                  alt="aliment-icon"
+                  class="aliment-icon-2"
+                />
+                <img
+                  src="/images//icons//banner-aliment-icon-3.png"
+                  alt="aliment-icon-3"
+                  class="aliment-icon-3"
+                />
+                <img
+                  src="/images/icons/banner-aliment-icon-4.png"
+                  alt="aliment-icon"
+                  class="aliment-icon-4"
+                />
+              </div>
+              <img
+                src="/images/banner/shape-2.png"
+                alt="shape-2"
+                class="shape-2"
+              />
+            </div>
+
+            <div class="banner-text">
+              <h1>موسسه پویا ، دوره های آنلاین و حضوری</h1>
+              <strong>
+                <span>برنامه ریزی و آموزش</span>
+                <span>توسط برترین اساتید</span>
+                <img src="/images/banner/banner-line.png" alt="banner-line" />
+              </strong>
+              <p>
+                پیر مردی هر روز تو محله می دید پسر کی با کفش های پاره و پای
+                برهنه با توپ پلاستیکی فوتبال بازی می کند، روزی رفت ی کتانی نو
+                خرید و اومد و به پسرک گفت بیا این کفشا رو بپوش
+              </p>
+              <div class="banner-buttons">
+                <button class="banner-btn btn-1">
+                  <span class="btn-square-1"></span>
+                  <a href="#">مشاهده دوره ها</a>
+                </button>
+                <button class="banner-btn btn-2">
+                  <span class="btn-square-2"></span>
+                  <a href="#">تماس با ما</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </header>
+
+      <main>
+        <!-- courses section -->
+        <section class="section-one">
+          <div class="course-title">
+            <p class="title-1">دوره های آموزشی</p>
+            <p class="title-2">محبوب ترین دوره ها را پیدا کنید</p>
+          </div>
+          <div class="all-courses">
+            <div class="course">
+              <img
+                src="/images/icons/icon-category/course-category-icon-1.png"
+                alt="category-icon-1"
+              />
+              <div class="course-text">
+                <b>علم داده</b>
+                <span> داده ها همه چیزند. </span>
+              </div>
+            </div>
+            <div class="course">
+              <img
+                src="/images/icons/icon-category/course-category-icon-2.png"
+                alt="category-icon-2"
+              />
+              <div class="course-text">
+                <b>استراتژی کسب و کار</b>
+                <span>بهبود کسب و کار </span>
+              </div>
+            </div>
+            <div class="course">
+              <img
+                src="/images/icons/icon-category/course-category-icon-3.png"
+                alt="category-icon-3"
+              />
+              <div class="course-text">
+                <b> هنر و طراحی</b>
+                <span> سرگرمی و چالش </span>
+              </div>
+            </div>
+            <div class="course">
+              <img
+                src="/images/icons/icon-category/course-category-icon-4.png"
+                alt="category-icon-4"
+              />
+              <div class="course-text">
+                <b> سبک زندگی</b>
+                <span> مهارت های جدید </span>
+              </div>
+            </div>
+            <div class="course">
+              <img
+                src="/images/icons/icon-category/course-category-icon-5.png"
+                alt="category-icon-5"
+              />
+              <div class="course-text">
+                <b>بازاریابی</b>
+                <span> مهارت های جدید</span>
+              </div>
+            </div>
+            <div class="course">
+              <img
+                src="/images/icons/icon-category/course-category-icon-6.png"
+                alt="category-icon-6"
+              />
+              <div class="course-text">
+                <b>امورمالی</b>
+                <span> مهارت های جدید</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- end courses section -->
+
+        <!-- about us section (banner) -->
+        <section class="section-two">
+          <div class="about">
+            <div class="about-images">
+              <img
+                src="/images/banner/sec-banner/about-img-bg.png"
+                alt="about-img-bg"
+                class="bg-about-img"
+              />
+              <img
+                src="/images/banner/sec-banner/about-img.png"
+                alt="about-img"
+                class="about-img"
+              />
+              <img
+                src="/images/icons/banner-aliment-icon-1.png"
+                alt="aliment-icon"
+                class="aliment-icon1"
+              />
+              <img
+                src="/images/icons/banner-aliment-icon-2.png"
+                alt="aliment-icon"
+                class="aliment-icon2"
+              />
+            </div>
+            <div class="about-text">
+              <strong>درباره ما</strong>
+              <span>ما بهترین دوره های آنلاین را برگزار میکنیم</span>
+              <p>
+                پیر مردی هر روز تو محله می دید پسر کی با کفش های پاره و پای
+                برهنه با توپ پلاستیکی فوتبال بازی می کند، روزی رفت ی کتانی نو
+                خرید و اومد و به پسرک گفت بیا این کفشا رو بپوش
+              </p>
+              <ul>
+                <li>
+                  برگزاری فصلی دوره های آنلاین
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="ionicon s-ion-icon"
+                    viewBox="0 0 512 512"
+                  >
+                    <title>Checkmark Circle</title>
+                    <path
+                      d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"
+                    ></path>
+                  </svg>
+                </li>
+                <li>
+                  برگزاری فصلی دوره های آنلاین
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="ionicon s-ion-icon"
+                    viewBox="0 0 512 512"
+                  >
+                    <title>Checkmark Circle</title>
+                    <path
+                      d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"
+                    ></path>
+                  </svg>
+                </li>
+                <li>
+                  برگزاری فصلی دوره های آنلاین
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="ionicon s-ion-icon"
+                    viewBox="0 0 512 512"
+                  >
+                    <title>Checkmark Circle</title>
+                    <path
+                      d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z"
+                    ></path>
+                  </svg>
+                </li>
+              </ul>
+              <button class="about-btn btn">
+                <span class="btn-square"></span>
+                <a href="#"> بیشتر ببینید </a>
+              </button>
+            </div>
+          </div>
+        </section>
+        <!-- section three -->
+        <section class="section-three">
+          <div class="course-title-wrapper">
+            <div class="section-three-titles">
+              <p class="section-three-subtitle">دوره های آنلاین</p>
+              <h2 class="section-three-title">
+                دوره آنلاین مناسب خود را پیدا کنید
+              </h2>
+            </div>
+            <button class="course-btn">
+              <span class="square-btn"></span>
+              <a href="#"> همه دوره ها </a>
+            </button>
+          </div>
+
+          <div class="courses-grid">
+            <div class="course-cards">
+              <div class="card-pic">
+                <img src="/images/img/cards-pic/course-1.jpg" alt="course-1" />
+                <div class="card-btn">
+                  <button class="btn-primary">کسب و کار</button>
+                  <button class="btn-secondary">بازاریابی</button>
+                </div>
+              </div>
+
+              <a href="" class="card-description">
+                با یادگیری مهارت های کسب و کار به یک مدیر محصول تبدیل شوید.
+              </a>
+              <div class="profile-wrapper">
+                <div class="teacher">
+                  <img
+                    src="/images/img/cards-pic/course-instructor-img.jpg"
+                    alt="course-instructor"
+                  />
+                  <a href="#"> عمر شهابی </a>
+                </div>
+                <div class="rating">
+                  <p>(۲k) ۵.۰</p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="ion-icon-star"
+                    viewBox="0 0 512 512"
+                  >
+                    <title>Star</title>
+                    <path
+                      d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <hr class="divider" />
+              <div class="card-footer">
+                <div class="students">
+                  <span class="number-students"> ۶۰۰ نفر</span>
+                  <div class="student-icon">
+                    <img
+                      src="/images/img/cards-pic/student-icon.png"
+                      alt="student-icon"
+                    />
+                  </div>
+                </div>
+                <span>۱۹۷۰۰۰ تومان</span>
+              </div>
+            </div>
+
+            <div class="course-cards">
+              <div class="card-pic">
+                <img src="/images/img/cards-pic/course-2.jpg" alt="course-1" />
+                <div class="card-btn">
+                  <button class="btn-primary">کسب و کار</button>
+                  <button class="btn-secondary">بازاریابی</button>
+                </div>
+              </div>
+
+              <a href="" class="card-description">
+                با یادگیری مهارت های کسب و کار به یک مدیر محصول تبدیل شوید.
+              </a>
+              <div class="profile-wrapper">
+                <div class="teacher">
+                  <img
+                    src="/images/img/cards-pic/course-instructor-img.jpg"
+                    alt="course-instructor"
+                  />
+                  <a href="#"> عمر شهابی </a>
+                </div>
+                <div class="rating">
+                  <p>(۲k) ۵.۰</p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="ion-icon-star"
+                    viewBox="0 0 512 512"
+                  >
+                    <title>Star</title>
+                    <path
+                      d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <hr class="divider" />
+              <div class="card-footer">
+                <div class="students">
+                  <span class="number-students"> ۶۰۰ نفر</span>
+                  <div class="student-icon">
+                    <img
+                      src="/images/img/cards-pic/student-icon.png"
+                      alt="student-icon"
+                    />
+                  </div>
+                </div>
+                <span>۱۹۷۰۰۰ تومان</span>
+              </div>
+            </div>
+
+            <div class="course-cards">
+              <div class="card-pic">
+                <img src="/images/img/cards-pic/course-3.jpg" alt="course-1" />
+                <div class="card-btn">
+                  <button class="btn-primary">کسب و کار</button>
+                  <button class="btn-secondary">بازاریابی</button>
+                </div>
+              </div>
+
+              <a href="" class="card-description">
+                با یادگیری مهارت های کسب و کار به یک مدیر محصول تبدیل شوید.
+              </a>
+              <div class="profile-wrapper">
+                <div class="teacher">
+                  <img
+                    src="/images/img/cards-pic/course-instructor-img.jpg"
+                    alt="course-instructor"
+                  />
+                  <a href="#"> عمر شهابی </a>
+                </div>
+                <div class="rating">
+                  <p>(۲k) ۵.۰</p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="ion-icon-star"
+                    viewBox="0 0 512 512"
+                  >
+                    <title>Star</title>
+                    <path
+                      d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <hr class="divider" />
+              <div class="card-footer">
+                <div class="students">
+                  <span class="number-students"> ۶۰۰ نفر</span>
+                  <div class="student-icon">
+                    <img
+                      src="/images/img/cards-pic/student-icon.png"
+                      alt="student-icon"
+                    />
+                  </div>
+                </div>
+                <span>۱۹۷۰۰۰ تومان</span>
+              </div>
+            </div>
+
+            <div class="course-cards">
+              <div class="card-pic">
+                <img src="/images/img/cards-pic/course-4.jpg" alt="course-1" />
+                <div class="card-btn">
+                  <button class="btn-primary">کسب و کار</button>
+                  <button class="btn-secondary">بازاریابی</button>
+                </div>
+              </div>
+
+              <a href="" class="card-description">
+                با یادگیری مهارت های کسب و کار به یک مدیر محصول تبدیل شوید.
+              </a>
+              <div class="profile-wrapper">
+                <div class="teacher">
+                  <img
+                    src="/images/img/cards-pic/course-instructor-img.jpg"
+                    alt="course-instructor"
+                  />
+                  <a href="#"> عمر شهابی </a>
+                </div>
+                <div class="rating">
+                  <p>(۲k) ۵.۰</p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="ion-icon-star"
+                    viewBox="0 0 512 512"
+                  >
+                    <title>Star</title>
+                    <path
+                      d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <hr class="divider" />
+              <div class="card-footer">
+                <div class="students">
+                  <span class="number-students"> ۶۰۰ نفر</span>
+                  <div class="student-icon">
+                    <img
+                      src="/images/img/cards-pic/student-icon.png"
+                      alt="student-icon"
+                    />
+                  </div>
+                </div>
+                <span>۱۹۷۰۰۰ تومان</span>
+              </div>
+            </div>
+
+            <div class="course-cards">
+              <div class="card-pic">
+                <img src="/images/img/cards-pic/course-5.jpg" alt="course-1" />
+                <div class="card-btn">
+                  <button class="btn-primary">کسب و کار</button>
+                  <button class="btn-secondary">بازاریابی</button>
+                </div>
+              </div>
+
+              <a href="" class="card-description">
+                با یادگیری مهارت های کسب و کار به یک مدیر محصول تبدیل شوید.
+              </a>
+              <div class="profile-wrapper">
+                <div class="teacher">
+                  <img
+                    src="/images/img/cards-pic/course-instructor-img.jpg"
+                    alt="course-instructor"
+                  />
+                  <a href="#"> عمر شهابی </a>
+                </div>
+                <div class="rating">
+                  <p>(۲k) ۵.۰</p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="ion-icon-star"
+                    viewBox="0 0 512 512"
+                  >
+                    <title>Star</title>
+                    <path
+                      d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <hr class="divider" />
+              <div class="card-footer">
+                <div class="students">
+                  <span class="number-students"> ۶۰۰ نفر</span>
+                  <div class="student-icon">
+                    <img
+                      src="/images/img/cards-pic/student-icon.png"
+                      alt="student-icon"
+                    />
+                  </div>
+                </div>
+                <span>۱۹۷۰۰۰ تومان</span>
+              </div>
+            </div>
+
+            <div class="course-cards">
+              <div class="card-pic">
+                <img src="/images/img/cards-pic/course-6.jpg" alt="course-1" />
+                <div class="card-btn">
+                  <button class="btn-primary">کسب و کار</button>
+                  <button class="btn-secondary">بازاریابی</button>
+                </div>
+              </div>
+
+              <a href="" class="card-description">
+                با یادگیری مهارت های کسب و کار به یک مدیر محصول تبدیل شوید.
+              </a>
+              <div class="profile-wrapper">
+                <div class="teacher">
+                  <img
+                    src="/images/img/cards-pic/course-instructor-img.jpg"
+                    alt="course-instructor"
+                  />
+                  <a href="#"> عمر شهابی </a>
+                </div>
+                <div class="rating">
+                  <p>(۲k) ۵.۰</p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="ion-icon-star"
+                    viewBox="0 0 512 512"
+                  >
+                    <title>Star</title>
+                    <path
+                      d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <hr class="divider" />
+              <div class="card-footer">
+                <div class="students">
+                  <span class="number-students"> ۶۰۰ نفر</span>
+                  <div class="student-icon">
+                    <img
+                      src="/images/img/cards-pic/student-icon.png"
+                      alt="student-icon"
+                    />
+                  </div>
+                </div>
+                <span>۱۹۷۰۰۰ تومان</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- section four , events -->
+        <section class="section-four">
+          <div class="event-img">
+            <img src="/images/img/event-img.jpg" alt="event-img" />
+            <button class="event-btn">
+              <a href="#">بیشتر ببینید</a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="ionicon-event"
+                viewBox="0 0 512 512"
+              >
+                <title>Play Circle</title>
+                <path
+                  d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm74.77 217.3l-114.45 69.14a10.78 10.78 0 01-16.32-9.31V186.87a10.78 10.78 0 0116.32-9.31l114.45 69.14a10.89 10.89 0 010 18.6z"
+                ></path>
+              </svg>
+            </button>
+          </div>
+
+          <div class="event-text">
+            <div class="event-title">
+              <p class="event-main-title">رویداد های پیش رو</p>
+              <h2 class="event-subtitle">به رویدادهای آینده ما بپیوندید</h2>
+            </div>
+
+            <div class="events">
+              <div class="event-card">
+                <div class="date">
+                  <p class="day">۲۸</p>
+                  <p class="mounth">مهر ۱۴۰۵</p>
+                </div>
+                <hr class="event-card-divider" />
+                <div class="time">
+                  <p>۱۰:۳۰ صبح تا ۱۴:۳۰</p>
+                  <hr class="event-divider" />
+                  <p>تهران</p>
+                </div>
+                <p class="category">دیجیتال مارکتینگ در گردشگری</p>
+              </div>
+
+              <div class="event-card">
+                <div class="date">
+                  <p class="day">۲۸</p>
+                  <p class="mounth">مهر ۱۴۰۵</p>
+                </div>
+                <hr class="event-card-divider" />
+                <div class="time">
+                  <p>۱۰:۳۰ صبح تا ۱۴:۳۰</p>
+                  <hr class="event-divider" />
+                  <p>تهران</p>
+                </div>
+                <p class="category">دیجیتال مارکتینگ در گردشگری</p>
+              </div>
+
+              <div class="event-card">
+                <div class="date">
+                  <p class="day">۲۸</p>
+                  <p class="mounth">مهر ۱۴۰۵</p>
+                </div>
+                <hr class="event-card-divider" />
+                <div class="time">
+                  <p>۱۰:۳۰ صبح تا ۱۴:۳۰</p>
+                  <hr class="event-divider" />
+                  <p>تهران</p>
+                </div>
+                <p class="category">دیجیتال مارکتینگ در گردشگری</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="features">
+          <div class="features-text">
+            <p class="features-title">ویژگی های برتر</p>
+            <h2 class="features-subtitle">
+              ما چه ارزش هایی را دنبال می کنیم...
             </h2>
-          </div>
-          <button class="course-btn">
-            <span class="square-btn"></span>
-            <a href="#"> همه دوره ها </a>
-          </button>
-        </div>
-
-        <div class="courses-grid">
-
-          <div class="course-cards">
-            <div class="card-pic">
-              <img src="/images/img/cards-pic/course-1.jpg" alt="course-1">
-              <div class="card-btn">
-                <button class="btn-primary">کسب و کار</button>
-                <button class="btn-secondary">بازاریابی</button>
-              </div>
-            </div>
-
-            <a href="" class="card-description">
-              با یادگیری مهارت های کسب و کار به یک مدیر محصول تبدیل شوید.
-            </a>
-            <div class="profile-wrapper">
-              <div class="teacher">
-                <img src="/images/img/cards-pic/course-instructor-img.jpg" alt="course-instructor">
-                <a href="#"> عمر شهابی </a>
-              </div>
-              <div class="rating">
+            <div class="features-item">
+              <img
+                src="/images/icons/features-icon/feature-icon-1.png"
+                alt="feature-icon-1"
+                class="feature-icon-1"
+              />
+              <div class="features-wrapper">
+                <h3>زندگی دانشجویی</h3>
                 <p>
-                  (۲k) ۵.۰
+                  طراحان سایت هنگام طراحی قالب سایت معمولا با این موضوع رو برو
+                  هستند که محتوای اصلی صفحات آماده نیست. در نتیجه طرح کلی دید
+                  درستی به کار فرما نمیدهد.
                 </p>
-                <svg xmlns="http://www.w3.org/2000/svg" class="ion-icon-star" viewBox="0 0 512 512">
-                  <title>Star</title>
-                  <path
-                    d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z">
-                  </path>
-                </svg>
-              </div>
-            </div>
-            <hr class="divider">
-            <div class="card-footer">
-              <div class="students">
-                <span class="number-students"> ۶۰۰ نفر</span>
-                <div class="student-icon">
-                  <img src="/images/img/cards-pic/student-icon.png" alt="student-icon">
-                </div>
-              </div>
-              <span>۱۹۷۰۰۰ تومان</span>
-            </div>
-          </div>
-
-          <div class="course-cards">
-            <div class="card-pic">
-              <img src="/images/img/cards-pic/course-2.jpg" alt="course-1">
-              <div class="card-btn">
-                <button class="btn-primary">کسب و کار</button>
-                <button class="btn-secondary">بازاریابی</button>
               </div>
             </div>
 
-            <a href="" class="card-description">
-              با یادگیری مهارت های کسب و کار به یک مدیر محصول تبدیل شوید.
-            </a>
-            <div class="profile-wrapper">
-              <div class="teacher">
-                <img src="/images/img/cards-pic/course-instructor-img.jpg" alt="course-instructor">
-                <a href="#"> عمر شهابی </a>
-              </div>
-              <div class="rating">
+            <div class="features-item">
+              <img
+                src="/images/icons/features-icon/feature-icon-2.png"
+                alt="feature-icon-2"
+                class="feature-icon-2"
+              />
+              <div class="features-wrapper">
+                <h3>بهترین کلاس آنلاین</h3>
                 <p>
-                  (۲k) ۵.۰
+                  طراحان سایت هنگام طراحی قالب سایت معمولا با این موضوع رو برو
+                  هستند که محتوای اصلی صفحات آماده نیست. در نتیجه طرح کلی دید
+                  درستی به کار فرما نمیدهد.
                 </p>
-                <svg xmlns="http://www.w3.org/2000/svg" class="ion-icon-star" viewBox="0 0 512 512">
-                  <title>Star</title>
-                  <path
-                    d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z">
-                  </path>
-                </svg>
-              </div>
-            </div>
-            <hr class="divider">
-            <div class="card-footer">
-              <div class="students">
-                <span class="number-students"> ۶۰۰ نفر</span>
-                <div class="student-icon">
-                  <img src="/images/img/cards-pic/student-icon.png" alt="student-icon">
-                </div>
-              </div>
-              <span>۱۹۷۰۰۰ تومان</span>
-            </div>
-          </div>
-
-          <div class="course-cards">
-            <div class="card-pic">
-              <img src="/images/img/cards-pic/course-3.jpg" alt="course-1">
-              <div class="card-btn">
-                <button class="btn-primary">کسب و کار</button>
-                <button class="btn-secondary">بازاریابی</button>
               </div>
             </div>
 
-            <a href="" class="card-description">
-              با یادگیری مهارت های کسب و کار به یک مدیر محصول تبدیل شوید.
-            </a>
-            <div class="profile-wrapper">
-              <div class="teacher">
-                <img src="/images/img/cards-pic/course-instructor-img.jpg" alt="course-instructor">
-                <a href="#"> عمر شهابی </a>
-              </div>
-              <div class="rating">
+            <div class="features-item">
+              <img
+                src="/images/icons/features-icon/feature-icon-3.png"
+                alt="feature-icon-3"
+                class="feature-icon-3"
+              />
+              <div class="features-wrapper">
+                <h3>برگزاری مستمر کلاس ها</h3>
                 <p>
-                  (۲k) ۵.۰
+                  طراحان سایت هنگام طراحی قالب سایت معمولا با این موضوع رو برو
+                  هستند که محتوای اصلی صفحات آماده نیست. در نتیجه طرح کلی دید
+                  درستی به کار فرما نمیدهد.
                 </p>
-                <svg xmlns="http://www.w3.org/2000/svg" class="ion-icon-star" viewBox="0 0 512 512">
-                  <title>Star</title>
-                  <path
-                    d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z">
-                  </path>
-                </svg>
               </div>
-            </div>
-            <hr class="divider">
-            <div class="card-footer">
-              <div class="students">
-                <span class="number-students"> ۶۰۰ نفر</span>
-                <div class="student-icon">
-                  <img src="/images/img/cards-pic/student-icon.png" alt="student-icon">
-                </div>
-              </div>
-              <span>۱۹۷۰۰۰ تومان</span>
             </div>
           </div>
+          <img
+            src="/images/img/coure-features-img.jpg"
+            alt="coure-features-img"
+            class="features-pic"
+          />
+        </section>
 
-          <div class="course-cards">
-            <div class="card-pic">
-              <img src="/images/img/cards-pic/course-4.jpg" alt="course-1">
-              <div class="card-btn">
-                <button class="btn-primary">کسب و کار</button>
-                <button class="btn-secondary">بازاریابی</button>
-              </div>
-            </div>
-
-            <a href="" class="card-description">
-              با یادگیری مهارت های کسب و کار به یک مدیر محصول تبدیل شوید.
-            </a>
-            <div class="profile-wrapper">
-              <div class="teacher">
-                <img src="/images/img/cards-pic/course-instructor-img.jpg" alt="course-instructor">
-                <a href="#"> عمر شهابی </a>
-              </div>
-              <div class="rating">
-                <p>
-                  (۲k) ۵.۰
-                </p>
-                <svg xmlns="http://www.w3.org/2000/svg" class="ion-icon-star" viewBox="0 0 512 512">
-                  <title>Star</title>
-                  <path
-                    d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z">
-                  </path>
-                </svg>
-              </div>
-            </div>
-            <hr class="divider">
-            <div class="card-footer">
-              <div class="students">
-                <span class="number-students"> ۶۰۰ نفر</span>
-                <div class="student-icon">
-                  <img src="/images/img/cards-pic/student-icon.png" alt="student-icon">
-                </div>
-              </div>
-              <span>۱۹۷۰۰۰ تومان</span>
-            </div>
-          </div>
-
-          <div class="course-cards">
-            <div class="card-pic">
-              <img src="/images/img/cards-pic/course-5.jpg" alt="course-1">
-              <div class="card-btn">
-                <button class="btn-primary">کسب و کار</button>
-                <button class="btn-secondary">بازاریابی</button>
-              </div>
+        <section class="best-teachers">
+          <p class="teachers-title">برترین اساتید</p>
+          <h2 class="teachers-subtitle">مربیان و اساتید ما را دنبال کنید...</h2>
+          <div class="teachers-card-wrapper">
+            <div class="teachers-card">
+              <img
+                src="/images/img/teachers/instructor-1.jpg"
+                alt="instructor-1"
+                class="teachers-pic"
+              />
+              <h4 class="teachers-name">دکتر عظیمی</h4>
+              <p class="field">دکتری بازاریابی بین المللی</p>
             </div>
 
-            <a href="" class="card-description">
-              با یادگیری مهارت های کسب و کار به یک مدیر محصول تبدیل شوید.
-            </a>
-            <div class="profile-wrapper">
-              <div class="teacher">
-                <img src="/images/img/cards-pic/course-instructor-img.jpg" alt="course-instructor">
-                <a href="#"> عمر شهابی </a>
-              </div>
-              <div class="rating">
-                <p>
-                  (۲k) ۵.۰
-                </p>
-                <svg xmlns="http://www.w3.org/2000/svg" class="ion-icon-star" viewBox="0 0 512 512">
-                  <title>Star</title>
-                  <path
-                    d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z">
-                  </path>
-                </svg>
-              </div>
+            <div class="teachers-card">
+              <img
+                src="/images/img/teachers/instructor-2.jpg"
+                alt="instructor-2"
+                class="teachers-pic"
+              />
+              <h4 class="teachers-name">دکتر عظیمی</h4>
+              <p class="field">دکتری بازاریابی بین المللی</p>
             </div>
-            <hr class="divider">
-            <div class="card-footer">
-              <div class="students">
-                <span class="number-students"> ۶۰۰ نفر</span>
-                <div class="student-icon">
-                  <img src="/images/img/cards-pic/student-icon.png" alt="student-icon">
-                </div>
-              </div>
-              <span>۱۹۷۰۰۰ تومان</span>
+
+            <div class="teachers-card">
+              <img
+                src="/images/img/teachers/instructor-3.jpg"
+                alt="instructor-3"
+                class="teachers-pic"
+              />
+              <h4 class="teachers-name">دکتر عظیمی</h4>
+              <p class="field">دکتری بازاریابی بین المللی</p>
+            </div>
+
+            <div class="teachers-card">
+              <img
+                src="/images/img/teachers/instructor-4.jpg"
+                alt="instructor-4"
+                class="teachers-pic"
+              />
+              <h4 class="teachers-name">دکتر عظیمی</h4>
+              <p class="field">دکتری بازاریابی بین المللی</p>
             </div>
           </div>
+        </section>
 
-          <div class="course-cards">
-            <div class="card-pic">
-              <img src="/images/img/cards-pic/course-6.jpg" alt="course-1">
-              <div class="card-btn">
-                <button class="btn-primary">کسب و کار</button>
-                <button class="btn-secondary">بازاریابی</button>
+        <section class="clients">
+          <div class="client-text">
+            <p class="client-title">نظرات دانشجویان</p>
+            <h2 class="client-subtitle">دانشجویان در مورد ما چه می گویند</h2>
+            <p class="client-description">
+              طراحان سایت هنگام طراحی قالب سایت معمولا با این موضوع رو برو هستند
+              که محتوای اصلی صفحات آماده نیست. در نتیجه طرح کلی دید درستی به کار
+              فرما نمیدهد.
+            </p>
+          </div>
+          <div class="client-card">
+            <p class="client-comment">
+              طراحان سایت هنگام طراحی قالب سایت معمولا با این موضوع رو برو هستند
+              که محتوای اصلی صفحات آماده نیست. در نتیجه طرح کلی دید درستی به
+              کارفرما نمیدهد.
+            </p>
+            <div class="client-wrapper">
+              <img
+                src="/images/img/teachers/client.jpg"
+                alt="client"
+                class="client-img"
+              />
+              <div class="client-info">
+                <h4 class="client-name">هستی</h4>
+                <p class="client-job">دانشجو</p>
               </div>
-            </div>
-
-            <a href="" class="card-description">
-              با یادگیری مهارت های کسب و کار به یک مدیر محصول تبدیل شوید.
-            </a>
-            <div class="profile-wrapper">
-              <div class="teacher">
-                <img src="/images/img/cards-pic/course-instructor-img.jpg" alt="course-instructor">
-                <a href="#"> عمر شهابی </a>
-              </div>
-              <div class="rating">
-                <p>
-                  (۲k) ۵.۰
-                </p>
-                <svg xmlns="http://www.w3.org/2000/svg" class="ion-icon-star" viewBox="0 0 512 512">
-                  <title>Star</title>
-                  <path
-                    d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z">
-                  </path>
-                </svg>
-              </div>
-            </div>
-            <hr class="divider">
-            <div class="card-footer">
-              <div class="students">
-                <span class="number-students"> ۶۰۰ نفر</span>
-                <div class="student-icon">
-                  <img src="/images/img/cards-pic/student-icon.png" alt="student-icon">
-                </div>
-              </div>
-              <span>۱۹۷۰۰۰ تومان</span>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </main>
 
-      <!-- section four , events -->
-      <section class="section-four">
-        <div class="event-img">
-          <img src="/images/img/event-img.jpg" alt="event-img">
-          <button class="event-btn">
-            <a href="#">بیشتر ببینید</a>
-            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon-event" viewBox="0 0 512 512">
-              <title>Play Circle</title>
-              <path
-                d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm74.77 217.3l-114.45 69.14a10.78 10.78 0 01-16.32-9.31V186.87a10.78 10.78 0 0116.32-9.31l114.45 69.14a10.89 10.89 0 010 18.6z">
-              </path>
-            </svg>
-          </button>
-        </div>
+      <footer></footer>
 
-        <div class="event-text">
-          <div class="event-title">
-            <p class="event-main-title">رویداد های پیش رو </p>
-            <h2 class="event-subtitle"> به رویدادهای آینده ما بپیوندید </h2>
-          </div>
-
-          <div class="events">
-            <div class="event-card">
-              <div class="date">
-                <p class="day">۲۸</p>
-                <p class="mounth">مهر ۱۴۰۵</p>
-              </div>
-              <hr class="event-card-divider">
-              <div class="time">
-                <p>۱۰:۳۰ صبح تا ۱۴:۳۰</p>
-                <hr class="event-divider">
-                <p>تهران</p>
-              </div>
-              <p class="category">دیجیتال مارکتینگ در گردشگری</p>
-            </div>
-
-            <div class="event-card">
-              <div class="date">
-                <p class="day">۲۸</p>
-                <p class="mounth">مهر ۱۴۰۵</p>
-              </div>
-              <hr class="event-card-divider">
-              <div class="time">
-                <p>۱۰:۳۰ صبح تا ۱۴:۳۰</p>
-                <hr class="event-divider">
-                <p>تهران</p>
-              </div>
-              <p class="category">دیجیتال مارکتینگ در گردشگری</p>
-            </div>
-
-
-            <div class="event-card">
-              <div class="date">
-                <p class="day">۲۸</p>
-                <p class="mounth">مهر ۱۴۰۵</p>
-              </div>
-              <hr class="event-card-divider">
-              <div class="time">
-                <p>۱۰:۳۰ صبح تا ۱۴:۳۰</p>
-                <hr class="event-divider">
-                <p>تهران</p>
-              </div>
-              <p class="category">دیجیتال مارکتینگ در گردشگری</p>
-            </div>
-          </div>
-
-        </div>
-      </section>
-
-      <section class="features">
-        <div class="features-text">
-          <p class="features-title">ویژگی های برتر</p>
-          <h2 class="features-subtitle">ما چه ارزش هایی را دنبال می کنیم...</h2>
-          <div class="features-item">
-            <img src="/images/icons/features-icon/feature-icon-1.png" alt="feature-icon-1" class="feature-icon-1">
-            <div class="features-wrapper">
-              <h3>زندگی دانشجویی</h3>
-              <p>
-                طراحان سایت هنگام طراحی قالب سایت معمولا با این موضوع رو برو هستند که محتوای اصلی صفحات آماده نیست. در
-                نتیجه طرح کلی دید درستی به کار فرما نمیدهد.
-              </p>
-            </div>
-          </div>
-
-          <div class="features-item">
-            <img src="/images/icons/features-icon/feature-icon-2.png" alt="feature-icon-2" class="feature-icon-2">
-            <div class="features-wrapper">
-              <h3> بهترین کلاس آنلاین</h3>
-              <p>
-                طراحان سایت هنگام طراحی قالب سایت معمولا با این موضوع رو برو هستند که محتوای اصلی صفحات آماده نیست. در
-                نتیجه طرح کلی دید درستی به کار فرما نمیدهد.
-              </p>
-            </div>
-          </div>
-
-          <div class="features-item">
-            <img src="/images/icons/features-icon/feature-icon-3.png" alt="feature-icon-3" class="feature-icon-3">
-            <div class="features-wrapper">
-              <h3> برگزاری مستمر کلاس ها</h3>
-              <p>
-                طراحان سایت هنگام طراحی قالب سایت معمولا با این موضوع رو برو هستند که محتوای اصلی صفحات آماده نیست. در
-                نتیجه طرح کلی دید درستی به کار فرما نمیدهد.
-              </p>
-            </div>
-          </div>
-
-        </div>
-        <img src="/images/img/coure-features-img.jpg" alt="coure-features-img" class="features-pic">
-      </section>
-
-
-    </main>
-
-    <footer></footer>
-
-    <!-- <script>
+      <!-- <script>
     const hamburger = document.getElementById("hamburger");
     hamburger.addEventListener("click", ()=>{
       hamburger.classList.toggle("active")
     })
   </script> -->
-  </div>
-</body>
-
+    </div>
+  </body>
 </html>

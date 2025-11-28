@@ -6,6 +6,9 @@
 @import url(/styles//section-three.css);
 @import url(/styles/section-four.css);
 @import url(/styles/section-five.css);
+@import url(/styles/teachers-section.css);
+@import url(/styles/client.css);
+
 @font-face {
   font-family: iranian;
   src: url("/fonts/irsans_p30download.com.ttf") format("truetype");

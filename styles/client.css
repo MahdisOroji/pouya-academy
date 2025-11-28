@@ -1,0 +1,71 @@
+.clients {
+    background-color: var(--cultured);
+    padding: 5rem 2rem;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/* client description */
+.client-text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+}
+
+.client-title {
+    color: var(--ultramarine-blue);
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.client-subtitle {
+    font-size: medium;
+}
+
+.client-description {
+    color: var(--sonic-silver);
+    padding: 2rem 0;
+    text-align: start;
+}
+
+/* client card */
+.client-card {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 40px;
+    gap: 1.5rem;
+    background-image: url(/images/img/teachers/quote.png);
+    background-repeat: no-repeat;
+    background-position: left 3rem bottom 3rem;
+    box-shadow: 0 10px 30px hsla(0, 0%, 0%, 0.1);
+}
+
+.client-comment {
+    color: var(--sonic-silver);
+}
+
+.client-img {
+    border-radius: 8px;
+    border: 2px solid red;
+    padding: 10px;
+}
+
+.client-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+@media (min-width: 1024px) {
+    .clients {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+    }
+}

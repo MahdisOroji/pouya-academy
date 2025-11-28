@@ -1,0 +1,66 @@
+.best-teachers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 5rem 1rem;
+}
+.teachers-title{
+    color: var(--ultramarine-blue);
+    font-weight: bolder;
+    font-size: larger;
+}
+.teachers-subtitle{
+    font-size: medium;
+    font-weight: 100;
+}
+.teachers-card-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+.teachers-card {
+    background-color: var(--cultured);
+    padding: 25px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.teachers-pic {
+    border-radius: 8px;
+}
+
+.field {
+    color: var(--ultramarine-blue);
+}
+@media (min-width: 768px) and (max-width: 1023px){
+    .teachers-card-wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem; 
+        row-gap: 2rem;
+
+    }
+}
+@media (min-width: 1024px){
+    .teachers-card-wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem; 
+        row-gap: 2rem;
+    }
+}
+@media (min-width: 1440px){
+    .teachers-card-wrapper{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 2rem; 
+        row-gap: 2rem;
+    }
+}
