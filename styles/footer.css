@@ -1,0 +1,127 @@
+footer {
+  background-color: var(--oxford-blue);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 8rem 2rem;
+  color: var(--white);
+  gap: 3rem;
+}
+
+/* medias icon */
+.media-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 2rem;
+}
+.medias {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 1rem;
+}
+.medias > svg {
+  fill: var(--white);
+  background-color: rgba(225, 242, 242, 0.352);
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 8px;
+}
+/* fast accesbility */
+.fast-accesbility {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.fast-accesbility > p {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: large;
+}
+.fast-accesbility > a {
+  text-decoration: none;
+  color: var(--white);
+}
+/* important links */
+.important-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.important-links > p {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: large;
+}
+.important-links > a {
+  text-decoration: none;
+  color: var(--white);
+}
+/* mail box */
+.email-box {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.email-wrapper {
+  padding: 10px 0;
+}
+.email-wrapper > input {
+  width: 100%;
+  padding: 20px 30px;
+  border-radius: 8px;
+  padding-left: 70px;
+  color: var(--oxford-blue);
+  border: none;
+  outline: none;
+}
+.email-wrapper > button {
+  position: absolute;
+  top: 32px;
+  left: 0;
+  width: 55px;
+  height: 55px;
+  background: var(--red-orange-color-wheel);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.email-wrapper > button > svg {
+  fill: var(--white);
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .media-wrapper>p{
+    width: 300px;
+  }
+  .important-links>a{
+    text-wrap: nowrap;
+  }
+  .important-links>p{
+    text-wrap: nowrap;
+  }
+  .fast-accesbility>a{
+    text-wrap: nowrap;
+  }
+  .fast-accesbility>p{
+    text-wrap: nowrap;
+  }
+}
