@@ -90,3 +90,20 @@
         transform: translateY(0px) translateX(0px);
     }
 }
+@keyframes float-out-right {
+    0% {
+        transform: translateY(0px) translateX(0px);
+    }
+    25% {
+        transform: translateY(-2px) translateX(20px);
+    }
+    50% {
+        transform: translateY(0px) translateX(40px);
+    }
+    75% {
+        transform: translateY(2px) translateX(20px);
+    }
+    100% {
+        transform: translateY(0px) translateX(0px);
+    }
+}
